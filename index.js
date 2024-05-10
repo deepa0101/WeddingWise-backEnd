@@ -34,7 +34,7 @@ app.use("/budget",budgetRoute)
 app.get("/", (req, res) => {
   res.send("Welcome to the Server! 🌐");
 });
-
+console.log(`${process.env.MONGO_URI}`)
 mongoose.connect(`${process.env.MONGO_URI}`)
   .then(() => {
     app.listen(process.env.PORT, () => {
