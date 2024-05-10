@@ -1,9 +1,9 @@
-**Backend Application Repository**
+#**Backend Application Repository**
 This repository contains the backend application for the Frontend Application Repository.(Wedding Wise)
 
 Backend application is a RESTful API built with Node.js and Express.js. It uses MongoDB as the database.
 
-**Installation**
+#**Installation**
 
 -Clone the repository
 -Run npm install to install the dependencies
@@ -12,13 +12,13 @@ Backend application is a RESTful API built with Node.js and Express.js. It uses 
 -PORT: Port number for the server
 -Run npm run dev to start the server
 
-**Application**
+#**Application**
 WeddingWise-Event Management System
 
-**Features**
+#**Features**
  User registration
 
- **User login**
+ #**User login**
 [] User Dashboard
 
  -View All EVents
@@ -35,8 +35,8 @@ WeddingWise-Event Management System
  -Crud for Expense Tracking
  -Logout
 
-**License**
+#**License**
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-**Libraries Used**
+#**Libraries Used**
 mongoose: MongoDB object modeling tool. It is used to interact with MongoDB database. We use this instead of mongodb driver because it provides a simple schema-based solution to model our application data.
